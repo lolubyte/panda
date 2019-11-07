@@ -2,7 +2,7 @@ version: '3'
 
 # same as 
 # docker run -p 80:4000 -v $(pwd):/site bretfisher/jekyll-serve
-# Testing bit bucket fecth component
+# 
 services:
   jekyll:
     image: bretfisher/jekyll-serve
